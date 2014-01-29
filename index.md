@@ -74,18 +74,17 @@
       some small amount of money to the Dayton Chess Club every month.
       You're certainly under no obligation to contribute.</p>
 <br/>
-<h1>February 12 topic: <strong>R</strong></h1>
+February special topic: R
 
-<p>
-<a href="http://www.r-project.org">R</a> is a specialty language for statistical
-computing and graphics; it's the traditional favorite of statisticians
-everywhere.  Ken Phelps has been diving deep into R and will introduce
-it to us.  Come stretch your brain by exposing it to a new language!
-Make sure to invite any of your friends who have an interest in
-mathematics and number-crunching.
-</p>
-<p>Please let your friends know, especially those with an
-interest in math and statistics!</p>
+R is a specialty language for statistical computing and graphics; it's
+the traditional favorite of statisticians everywhere.  Ken Phelps has
+been diving deep into R and will introduce it to us.  Come stretch
+your brain by exposing it to a new language!  Make sure to invite any
+of your friends who have an interest in mathematics and
+number-crunching.
+
+Please let your friends know!
+
 <p>
 <h1>Mailing list</h1>
 <br/>
