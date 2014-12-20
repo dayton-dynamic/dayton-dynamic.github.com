@@ -1,0 +1,310 @@
+{
+  "BOS": {
+    "url": "http://image.weather.com/web/radar/us_bos_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -71.005,
+      "lat": 42.36416666666667
+    }
+  },
+  "BRO": {
+    "url": "http://image.weather.com/web/radar/us_bro_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -97.42583333333334,
+      "lat": 25.906666666666666
+    }
+  },
+  "PHX": {
+    "url": "http://image.weather.com/web/radar/us_phx_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -112.00805555555556,
+      "lat": 33.43416666666666
+    }
+  },
+  "SEA": {
+    "url": "http://image.weather.com/web/radar/us_sea_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -122.30916666666667,
+      "lat": 47.44888888888889
+    }
+  },
+  "PIT": {
+    "url": "http://image.weather.com/web/radar/us_pit_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -80.23277777777778,
+      "lat": 40.49138888888889
+    }
+  },
+  "STL": {
+    "url": "http://image.weather.com/web/radar/us_stl_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -90.35972222222222,
+      "lat": 38.7475
+    }
+  },
+  "ORD": {
+    "url": "http://image.weather.com/web/radar/us_ord_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -87.90444444444445,
+      "lat": 41.97944444444445
+    }
+  },
+  "MIA": {
+    "url": "http://image.weather.com/web/radar/us_mia_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -80.29055555555556,
+      "lat": 25.793055555555558
+    }
+  },
+  "ROC": {
+    "url": "http://image.weather.com/web/radar/us_roc_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -77.67222222222223,
+      "lat": 43.118611111111115
+    }
+  },
+  "SFO": {
+    "url": "http://image.weather.com/web/radar/us_sfo_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -122.37472222222222,
+      "lat": 37.61888888888889
+    }
+  },
+  "RNO": {
+    "url": "http://image.weather.com/web/radar/us_rno_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -119.76805555555555,
+      "lat": 39.498333333333335
+    }
+  },
+  "BTV": {
+    "url": "http://image.weather.com/web/radar/us_btv_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -73.15305555555557,
+      "lat": 44.47166666666667
+    }
+  },
+  "DCA": {
+    "url": "http://image.weather.com/web/radar/us_dca_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -77.0375,
+      "lat": 38.85194444444445
+    }
+  },
+  "LIT": {
+    "url": "http://image.weather.com/web/radar/us_lit_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -92.22416666666666,
+      "lat": 34.72944444444445
+    }
+  },
+  "SAT": {
+    "url": "http://image.weather.com/web/radar/us_sat_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -98.46972222222223,
+      "lat": 29.533611111111114
+    }
+  },
+  "AMA": {
+    "url": "http://image.weather.com/web/radar/us_ama_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -101.70583333333333,
+      "lat": 35.219166666666666
+    }
+  },
+  "DFW": {
+    "url": "http://image.weather.com/web/radar/us_dfw_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -97.0375,
+      "lat": 32.896388888888886
+    }
+  },
+  "SHV": {
+    "url": "http://image.weather.com/web/radar/us_shv_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -93.82555555555555,
+      "lat": 32.44638888888888
+    }
+  },
+  "BOI": {
+    "url": "http://image.weather.com/web/radar/us_boi_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -116.22277777777778,
+      "lat": 43.564166666666665
+    }
+  },
+  "DTW": {
+    "url": "http://image.weather.com/web/radar/us_dtw_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -83.35333333333332,
+      "lat": 42.21222222222222
+    }
+  },
+  "JAN": {
+    "url": "http://image.weather.com/web/radar/us_jan_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -90.07583333333334,
+      "lat": 32.31111111111111
+    }
+  },
+  "TPA": {
+    "url": "http://image.weather.com/web/radar/us_tpa_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -82.53305555555555,
+      "lat": 27.975277777777777
+    }
+  },
+  "FAT": {
+    "url": "http://image.weather.com/web/radar/us_fat_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -119.71805555555555,
+      "lat": 36.77611111111111
+    }
+  },
+  "CLT": {
+    "url": "http://image.weather.com/web/radar/us_clt_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -80.94305555555556,
+      "lat": 35.21388888888889
+    }
+  },
+  "TLH": {
+    "url": "http://image.weather.com/web/radar/us_tlh_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -84.35027777777778,
+      "lat": 30.39638888888889
+    }
+  },
+  "GEG": {
+    "url": "http://image.weather.com/web/radar/us_geg_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -117.53361111111111,
+      "lat": 47.61972222222222
+    }
+  },
+  "LAS": {
+    "url": "http://image.weather.com/web/radar/us_las_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -115.15222222222222,
+      "lat": 36.08027777777778
+    }
+  },
+  "MSP": {
+    "url": "http://image.weather.com/web/radar/us_msp_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -93.21666666666667,
+      "lat": 44.88027777777778
+    }
+  },
+  "LAX": {
+    "url": "http://image.weather.com/web/radar/us_lax_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -118.40805555555556,
+      "lat": 33.942499999999995
+    }
+  },
+  "ATL": {
+    "url": "http://image.weather.com/web/radar/us_atl_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -84.42694444444444,
+      "lat": 33.640277777777776
+    }
+  },
+  "ABQ": {
+    "url": "http://image.weather.com/web/radar/us_abq_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -106.60916666666667,
+      "lat": 35.04
+    }
+  },
+  "SLC": {
+    "url": "http://image.weather.com/web/radar/us_slc_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -111.9775,
+      "lat": 40.788333333333334
+    }
+  },
+  "SJU": {
+    "url": "http://image.weather.com/web/radar/us_sju_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -66.00166666666667,
+      "lat": 18.439166666666665
+    }
+  },
+  "OKC": {
+    "url": "http://image.weather.com/web/radar/us_okc_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -97.60055555555554,
+      "lat": 35.393055555555556
+    }
+  },
+  "CHS": {
+    "url": "http://image.weather.com/web/radar/us_chs_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -80.04027777777777,
+      "lat": 32.89861111111111
+    }
+  },
+  "DSM": {
+    "url": "http://image.weather.com/web/radar/us_dsm_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -93.66250000000001,
+      "lat": 41.53388888888889
+    }
+  },
+  "PDX": {
+    "url": "http://image.weather.com/web/radar/us_pdx_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -122.5975,
+      "lat": 45.58861111111111
+    }
+  },
+  "RIC": {
+    "url": "http://image.weather.com/web/radar/us_ric_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -77.31944444444444,
+      "lat": 37.505
+    }
+  },
+  "MAF": {
+    "url": "http://image.weather.com/web/radar/us_maf_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -102.20166666666667,
+      "lat": 31.9425
+    }
+  },
+  "IND": {
+    "url": "http://image.weather.com/web/radar/us_ind_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -86.29416666666667,
+      "lat": 39.717222222222226
+    }
+  },
+  "DEN": {
+    "url": "http://image.weather.com/web/radar/us_den_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -104.66694444444445,
+      "lat": 39.858333333333334
+    }
+  },
+  "BHM": {
+    "url": "http://image.weather.com/web/radar/us_bhm_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -86.75333333333333,
+      "lat": 33.562777777777775
+    }
+  },
+  "OMA": {
+    "url": "http://image.weather.com/web/radar/us_oma_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -95.89361111111111,
+      "lat": 41.302499999999995
+    }
+  },
+  "CPR": {
+    "url": "http://image.weather.com/web/radar/us_cpr_closeradar_large_usen.jpg",
+    "coords": {
+      "long": -106.46416666666667,
+      "lat": 42.907777777777774
+    }
+  }
+}
