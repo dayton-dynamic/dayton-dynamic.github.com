@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+ 
+<!-- Set a style for our worldshape-data -->
+  <style>
+  path {
+    stroke: red;
+    stroke-width: 0.5px;
+    fill: grey;
+  }
+  </style>
+<body>
+ 
+  <!-- implementation of the hosted D3- and TopoJson js-libraries -->
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://d3js.org/topojson.v0.min.js"></script>
+   
+  <!-- map creation -->
+  <script>
+  // canvas resolution
+  var width = 1000,
+      height = 600;
+ 
+  // projection-settings for mercator   
+  var projection = d3.geo.mercator()
+      // where to center the map in degrees
+      .center([0, 50 ])
+      // zoomlevel
+      .scale(100)
+      // map-rotation
+      .rotate([0,0]);
+ 
+  // defines "svg" as data type and "make canvas" command
+  var svg = d3.select("body").append("svg")
+      .attr("width", width)
+      .attr("height", height);
+ 
+  // defines "path" as return of geographic features
+  var path = d3.geo.path()
+      .projection(projection);
+ 
+  // group the svg layers
+  var g = svg.append("g");
+ 
+  // load data and display the map on the canvas with country geometries
+  d3.json("world-110m.json", function(error, topology) {
+      console.log("loading map data!");
+      g.selectAll("path")
+        .data(topojson.object(topology, topology.objects.countries)
+            .geometries)
+      .enter()
+        .append("path")
+        .attr("d", path);
+  
+    console.log("paths have been defined");
+ 
+     d3.json("airmaps_lst.json", function(error, airports) {
+      console.log("now loading airport data");
+      g.selectAll("circle")
+        .data(airports)
+      .enter()
+        .append("circle")
+        .attr("r", 3)
+        .attr("transform", function(d) {
+          return "translate(" + projection([
+            d.coords.long,
+            d.coords.lat
+            ]) + ")";
+          })
+        .on("click", function(d) {
+          window.open(d.url);
+          })
+        .append("svg:title")
+        .text(function(d) { return d.code });
+    });
+       
+  });
+
+  var zoom = d3.behavior.zoom()
+      .on("zoom",function() {
+          g.attr("transform","translate("+
+              d3.event.translate.join(",")+")scale("+d3.event.scale+")");
+          g.selectAll("path") 
+              .attr("d", path.projection(projection));
+    });
+ 
+  svg.call(zoom)
+ 
+  </script>
+</body>
+</html>
