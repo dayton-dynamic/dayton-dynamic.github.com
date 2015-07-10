@@ -5,3 +5,4 @@
 - Paid $75 in May for May - June - July
 - collected $12 in May
 - collected $19 in June
+- collected $9 in July
