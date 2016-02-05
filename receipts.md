@@ -6,3 +6,6 @@
 - collected $12 in May
 - collected $19 in June
 - collected $9 in July
+- Paid $100 on Jan 13, 2016 for Jan - April
+- collected $18 in April
+
