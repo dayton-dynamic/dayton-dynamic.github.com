@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
-# Welcome to the Dayton Dynamic Languages User Group!
 
-<a name="about"></a>
+# Welcome to DDL!
 
 ## About Us
 
@@ -92,7 +91,7 @@ You're welcome to come.
 {% for post in site.categories.meeting %}
 
   <li>
-    <a href="{{post.url | prepend: site.url}}">
+    <a href="{{ post.url }}">
       <h3> {{ post.title }}</h3>
     </a>
     {{post.date | date_to_string }}
