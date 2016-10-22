@@ -27,12 +27,22 @@ You're certainly under no obligation to contribute.
 
 <a name="#next-meeting-topic"></a>
 
-## Our Next Meeting
+## Upcoming Meetings
 
-{% assign post = site.categories.meeting.first %}
-### [{{ post.title | escape }}]({{ post.url | prepend: site.baseurl }})
+{% assign curDate = site.time | date: '%s' %}
+{% assign meetings = site.categories.meeting | sort: "date" %}
+{% for meeting in meetings %}
+    {% assign meetingDate = meeting.date | date: '%s' %}
+    {% if meetingDate >= curDate %}
 
-{{ post.content }}
+### [{{ meeting.title | escape }}]({{ meeting.url | prepend: site.baseurl }})
+
+#### {{ meetingDate | date: "%B %d, %Y" }}
+
+{{ meeting.content }}
+
+    {% endif %}
+{% endfor %}
 
 <a name="ml"></a>
 
