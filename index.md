@@ -18,12 +18,15 @@ The meetings are very informal. We usually don't have any
 formal presentations, but people frequently show code that they're
 working on. The flow of the meeting tends to meander, so if you're
 interested in something specific, you should speak up!
-
+).
 
 The meetings are free to the public, though we try to donate
 some small amount of money to the Dayton Chess Club every month.
 You're certainly under no obligation to contribute.
 
+We are a Special Interest Group (SIG) of the [Dayton Microcomputer 
+Association](http://dma1.org/).  See other DMA SIG meetings
+at [Meetup](http://www.meetup.com/Dayton-Microcomputer-Association-Meetup/
 <a name="#next-meeting-topic"></a>
 
 ## Upcoming Meetings
@@ -100,3 +103,17 @@ You're welcome to come.
 {% endfor %}
 
 </ul>
+
+<a name="dayton"></a>
+
+## Dayton
+
+Dayton is home of the [Dayton Microcomputer Association](http://dma1.org/), one of the 
+country's oldest computer user groups.  DMA serves as an umbrella group for a variety of 
+Special Interest Groups like ours - see 
+[DMA's meetup page](http://www.meetup.com/Dayton-Microcomputer-Association-Meetup/).
+
+The [Dayton Tech Guide](http://www.daytontechguide.com/) has links to a variety 
+of resources in Dayton's technical community.
+ 
+![Flag of Dayton](http://i0.wp.com/www.gemcityhilltop.org/wp-content/uploads/2012/12/Dayton-Flag.jpg?fit=300%2C225)
