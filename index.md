@@ -48,6 +48,21 @@ at [Meetup](http://www.meetup.com/Dayton-Microcomputer-Association-Meetup/
 
 <a name="ml"></a>
 
+## Python self-study meetups
+
+Together with [Tec^Edge](http://wbi-icc.com/centers-services/tecedge-icc), 
+we're having an informal weekly lunchtime meeting
+for folks learning Python.  No program, just come to share questions with each 
+other, show off what you've been working on, and discuss.  We'll meet most 
+Fridays at noon at the [Wright Brothers Institute]().  Check 
+[meetup](https://www.meetup.com/Dayton-Microcomputer-Association-Meetup)
+to make sure we're meeting on a particular Friday.
+
+Many people can't make that time, so join our 
+[mailing list](http://lists.dma1.org/listinfo.cgi/dynamic-lang-sig-dma1.org) 
+to discuss possible times for an alternative session.
+
+
 ## Mailing list
 
 We have a [mailing list](http://lists.dma1.org/listinfo.cgi/dynamic-lang-sig-dma1.org) that we use for occasional discussion, but usually just monthly meeting reminders. It's extremely low traffic and definitely the best way to know what is going on with the group.
