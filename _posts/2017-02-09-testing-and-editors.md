@@ -28,5 +28,5 @@ Consider signing up for that one, too!
 
 ### Files demo'ed at meeting
 
-- [see diretory](/meeting_notes/testing/)
+- [see directory](https://github.com/dayton-dynamic/dayton-dynamic.github.com/blob/master/meeting_notes/testing/)
 

@@ -9,3 +9,4 @@ Inheritance is one of the fundamental principles of object-oriented programming.
 
 So we'll take a good look at both techniques, and the reasons and circumstances to use each one.
 
+[Notebook from meeting](https://github.com/dayton-dynamic/dayton-dynamic.github.com/blob/master/meeting_notes/inheritence_and_composition.ipynb)
