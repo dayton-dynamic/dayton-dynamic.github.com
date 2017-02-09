@@ -26,3 +26,7 @@ that the pros are in town: the DDVG will have a
 on data visualization tools with Python the very next day.
 Consider signing up for that one, too!
 
+### Files demo'ed at meeting
+
+- [see diretory](/meeting_notes/testing/)
+
