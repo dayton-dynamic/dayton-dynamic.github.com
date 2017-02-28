@@ -32,7 +32,7 @@ at [Meetup](http://www.meetup.com/Dayton-Microcomputer-Association-Meetup/
 ## Upcoming Meetings
 
 {% assign curDate = site.time | date: '%s' %}
-{% assign meetings = site.categories.meeting | sort: "date" %}
+{% assign meetings = site.categories.meeting | sort: "date" | reversed %}
 {% for meeting in meetings %}
     {% assign meetingDate = meeting.date | date: '%s' %}
     {% if meetingDate >= curDate %}
