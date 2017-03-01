@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "April 2017: Learning with Exercism"
+title:  "May 2017: Learning with Exercism"
 date:   2017-05-10 19:00:00 -0400
 categories: meeting
 ---
