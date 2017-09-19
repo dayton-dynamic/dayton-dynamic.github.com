@@ -13,7 +13,7 @@ As always, we'll take some time for your general thoughts, questions, and ideas.
 See you there!
 
 
-- [Bob Smith's meeting notes](../meeting_notes/How_To_Make_Mistakes_in_Python.ipynb)
+- [Bob Smith's meeting notes](/meeting_notes/How_To_Make_Mistakes_in_Python.ipynb)
 - [How to Make Mistakes in Python](http://www.oreilly.com/programming/free/how-to-make-mistakes-in-python.csp), by Mike Pirnat
 - [DailyWTF](https://thedailywtf.com/series/code-sod)
 - [Making Wrong Code Look Wrong](https://www.joelonsoftware.com/2005/05/11/making-wrong-code-look-wrong/) by Joel Spolsky
