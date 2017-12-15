@@ -20,6 +20,9 @@ variants.
 
 Matthew D. Groves: [I Have a NoSQL Toaster](https://www.slideshare.net/MatthewGroves7/i-have-a-nosql-toaster-dc-august-2017)
 
+
+[![Online notebook from meeting](https://hub.mybinder.org/user/dayton-dynamic--notebook-binder-qt9rtjmn/notebooks/field-guide-to-databases.ipynb)
+
 As always, we'll take some time for your general thoughts, questions, and ideas.  See you there!
 
 Distributed
