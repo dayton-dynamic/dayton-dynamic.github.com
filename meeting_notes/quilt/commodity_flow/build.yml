@@ -1,0 +1,25 @@
+contents:
+  commodity_flow_2012:
+    file: commodity_flow_2012.csv
+  data_dictionary:
+    file: "commodity_codes/Data Dictionary-Table 1.csv"
+    kwargs:
+      skiprows: [0,]
+  cfs_areas:
+    file: "commodity_codes/App A1-Table 1.csv"
+    kwargs:
+      skiprows: [0,]
+  naics:
+    file: "commodity_codes/App A2-Table 1.csv"
+    kwargs:
+      skiprows: [0,]
+  sctg:
+    file: "commodity_codes/App A3-Table 1.csv"
+    kwargs:
+      skiprows: [0,]
+  transport_codes:
+    file: commodity_codes/mode_transport_codes.csv 
+  collapsing:
+    file: commodity_codes/mode_collapsing.csv 
+  README:
+    file: README.md
