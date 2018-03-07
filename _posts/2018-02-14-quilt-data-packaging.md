@@ -13,3 +13,4 @@ like gem, pip, or CPAN. Let's take a look!
 As always, we'll take some time for your general thoughts, questions, and ideas.
 See you there!
 
+[Notebook from meeting](https://github.com/dayton-dynamic/dayton-dynamic.github.com/blob/master/meeting_notes/quilt/quilt.ipynb)
