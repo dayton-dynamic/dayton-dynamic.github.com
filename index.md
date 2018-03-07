@@ -48,7 +48,7 @@ at [Meetup](http://www.meetup.com/Dayton-Microcomputer-Association-Meetup/
 
 <a name="ml"></a>
 
-## Python self-study meetups
+## PyFri@WBI: Python self-study meetups
 
 Together with [Tec^Edge](http://wbi-icc.com/centers-services/tecedge-icc), 
 we're having an informal weekly lunchtime meeting
