@@ -20,4 +20,5 @@ talk about!
 
 Wed, April 11 in the Dayton Chess Club.
 
+[Notebook from meeting](https://github.com/dayton-dynamic/dayton-dynamic.github.com/blob/master/meeting_notes/json.ipynb)
 
