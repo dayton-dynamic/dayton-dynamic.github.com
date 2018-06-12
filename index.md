@@ -20,10 +20,6 @@ working on. The flow of the meeting tends to meander, so if you're
 interested in something specific, you should speak up!
 ).
 
-The meetings are free to the public, though we try to donate
-some small amount of money to the Dayton Chess Club every month.
-You're certainly under no obligation to contribute.
-
 We are a Special Interest Group (SIG) of the [Dayton Microcomputer 
 Association](http://dma1.org/).  See other DMA SIG meetings
 at [Meetup](http://www.meetup.com/Dayton-Microcomputer-Association-Meetup/
@@ -71,14 +67,17 @@ We have a [mailing list](http://lists.dma1.org/listinfo.cgi/dynamic-lang-sig-dma
 
 ## Location
 
-We customarily meet on the !2nd Wednesday of every month from
+**CHANGE** 
+
+We have customarily meet on the !2nd Wednesday of every month from
 !7pm to !9pm in the back part of the main room at
 the [Dayton Chess Club](http://www.daytonchessclub.com/).
-The address is
 
-> 18 W 5th St., Dayton, OH 45402
+However, the Chess Club will no longer be available on Wednesdays, 
+so we'll be figuring out a new location.  For now, meet at 
+Spaghetti Warehouse, just down the block.
 
-The telephone contact is [937-461-6283](tel:937-461-6283)
+----
 
 Here's a [map](http://goo.gl/maps/GljT6). Sometimes parking is
 hard to find, though all the metered spots are free after 6pm. If you're lucky, you can find parking on 5th street
@@ -87,11 +86,6 @@ unmarked on all of the online maps we could find) road that goes
 between 4th and 5th street between Main street and Ludlow.
 
 {% include map.html %}
-
-Earlier reports about being unable to use the Chess Club on Wednesdays
-turned out to be wrong (or at least premature)!  So our meeting place
-remains unchanged, but keep an eye on the mailing list in case of
-future changes.
 
 <a name="post-meeting"></a>
 
