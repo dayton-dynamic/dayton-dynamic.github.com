@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "August 2018: Place change; arcade games"
-date:   2018-06-13 19:00:00 -0400
+date:   2018-08-08 19:00:00 -0400
 categories: meeting
 ---
 

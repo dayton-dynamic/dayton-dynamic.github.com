@@ -67,32 +67,15 @@ We have a [mailing list](http://lists.dma1.org/listinfo.cgi/dynamic-lang-sig-dma
 
 ## Location
 
-**CHANGE** 
+**New home!** 
 
-We have customarily meet on the !2nd Wednesday of every month from
-!7pm to !9pm in the back part of the main room at
-the [Dayton Chess Club](http://www.daytonchessclub.com/).
+We meet meet on the !2nd Wednesday of every month from
+!7pm to !9pm upstairs at [Brixx Ice Company](https://www.brixxicecompany.com/).
 
-However, the Chess Club will no longer be available on Wednesdays, 
-so we'll be figuring out a new location.  For now, meet at 
-Spaghetti Warehouse, just down the block.
+[Map to Brixx](https://www.google.com/maps/place/Brixx+Ice+Company/@39.7635846,-84.1858403,17z/data=!3m1!4b1!4m5!3m4!1s0x884083fd2dda9455:0x1bad2c04f439a0b6!8m2!3d39.7635846!4d-84.1836462)
 
-----
-
-Here's a [map](http://goo.gl/maps/GljT6). Sometimes parking is
-hard to find, though all the metered spots are free after 6pm. If you're lucky, you can find parking on 5th street
-in front of the building. There is also usually parking on a (sadly
-unmarked on all of the online maps we could find) road that goes
-between 4th and 5th street between Main street and Ludlow.
-
-{% include map.html %}
-
-<a name="post-meeting"></a>
-
-## After-the-Meetup-Dinner
-
-We typically walk over to the [Spaghetti Warehouse](http://www.meatballs.com/) (a few doors west of the Dayton Chess Club) for dinner & conversation after the meeting.
-You're welcome to come.
+This lets us combine our customary after-meeting dinner with the 
+meeting itself.  Yum!
 
 <a name="past-meetings"></a>
 
