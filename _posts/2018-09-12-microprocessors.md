@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "September 2018: Programming on Microprocessors"
+title:  "September 2018: Programming Single-Board Computers"
 date:   2018-09-12 21:30:00 -0400
 categories: meeting
 ---
 
-# Topic: Programming on Microprocessors 
+# Topic: Programming Single-Board Computers 
 
 On September 12, we'll have *three* presenters demoing and 
 discussing 
-using and programming microprocessors!  The tech world has 
+using and programming single-board computers!  The tech world has 
 exploded with small, cheap, but amazingly powerful computers 
 perfect for interacting with hardware.  Use your dynamic 
 language skills in whole new ways... 
