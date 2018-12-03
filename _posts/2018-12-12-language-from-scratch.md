@@ -17,5 +17,5 @@ implementation itself, showing how a language can be built from the ground
 up.  It's turtles (of code) all the way down.  You'll laugh, you'll learn,
 you'll leave a bigger person.
 
-See [Marc's full description](../meeting_notes/nov-2019-dayton-dynamic-basic-parser.pdf)
+See [Marc's full description](~/meeting_notes/nov-2019-dayton-dynamic-basic-parser.pdf)
 
