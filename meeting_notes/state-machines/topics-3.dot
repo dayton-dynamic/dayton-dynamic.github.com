@@ -1,0 +1,4 @@
+digraph {
+  proposed -> scheduled;
+  scheduled -> completed;
+}
