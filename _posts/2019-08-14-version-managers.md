@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "August 2019: Version managers 
+title:  "August 2019: Version managers"
 date:   2019-08-14 19:00:00 -0400
 categories: meeting
 ---
