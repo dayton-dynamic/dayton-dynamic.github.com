@@ -1,0 +1,10 @@
+version: '3'
+services:
+  jupyter:
+    image: beakerx/beakerx
+    ports:
+    - "8888:8888"
+    volumes:
+    - ./notebooks:/home/beakerx/notebooks
+#volumes:
+#  logvolume01: {}
