@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "March 2020: Pandas"
+date:   2020-03-11 19:00:00 -0400
+categories: meeting
+---
+
+# Topic: [Pandas](https://pandas.pydata.org/)
+
+Pandas is a Python library for manipulating and 
+analyzing data that's rapidly gaining popularity 
+among professionals and amateurs alike for its 
+combination of power and (relative!) simplicity.
+Catherine will present an introduction to its 
+capabilities and confusing aspects based on a 
+couple years of using it heavily!
+
+<!-- [Meeting notes](https://github.com/dayton-dynamic/dayton-dynamic.github.com/tree/master/meeting_notes/pandas) -->
