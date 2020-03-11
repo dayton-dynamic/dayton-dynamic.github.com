@@ -1,0 +1,12 @@
+Province,capital,largest_city,entered,population,land_km2,water_km2,total_km2,languages,commons,senate,abbrev
+Ontario[b],Toronto,Toronto,"July 1, 1867",14659616,917741,158654,1076395,English[c],121,24,ON
+Quebec,Quebec City,Montreal,"July 1, 1867",8522800,1356128,185928,1542056,French[d],78,24,QC
+Nova Scotia,Halifax[e],Halifax[e],"July 1, 1867",976768,53338,1946,55284,English[f],11,10,NS
+New Brunswick,Fredericton,Moncton,"July 1, 1867",780021,71450,1458,72908,EnglishFrench[g],10,10,NB
+Manitoba,Winnipeg,Winnipeg,"July 15, 1870",1373859,553556,94241,647797,English[c][h],14,6,MB
+British Columbia,Victoria,Vancouver,"July 20, 1871",5105576,925186,19549,944735,English[c],42,6,BC
+Prince Edward Island,Charlottetown,Charlottetown,"July 1, 1873",157901,5660,0,5660,English[c],4,4,PE
+Saskatchewan,Regina,Saskatoon,"September 1, 1905",1178657,591670,59366,651036,English[c],14,6,SK
+Alberta,Edmonton,Calgary,"September 1, 1905",4395586,642317,19531,661848,English[c],34,6,AB
+Newfoundland and Labrador,St. John's,St. John's,"March 31, 1949",521922,373872,31340,405212,English[c],7,6,NL
+Total,Total,Total,Total,37672706,5490918,572013,6062931,—,335,102,Total

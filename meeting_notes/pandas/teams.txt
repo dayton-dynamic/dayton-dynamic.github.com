@@ -1,0 +1,101 @@
+Alberta
+
+    Calgary Flames (Western Pacific)
+    Edmonton Oilers (Western Pacific)
+
+Arizona
+
+    Arizona Coyotes (Western Pacific)
+
+British Columbia
+
+    Vancouver Canucks (Western Pacific)
+
+California
+
+    Anaheim Ducks (Western Pacific)
+    Los Angeles Kings (Western Pacific)
+    San Jose Sharks (Western Pacific)
+
+Colorado
+
+    Colorado Avalanche (Western Central)
+
+Florida
+
+    Florida Panthers (Eastern Atlantic)
+    Tampa Bay Lightning (Eastern Atlantic)
+
+Illinois
+
+    Chicago Blackhawks (Western Central)
+
+Manitoba
+
+    Winnipeg Jets (Western Central)
+
+Massachusetts
+
+    Boston Bruins (Eastern Atlantic)
+
+Michigan
+
+    Detroit Red Wings (Eastern Atlantic)
+
+Minnesota
+
+    Minnesota Wild (Western Central)
+
+Missouri
+
+    St. Louis Blues (Western Central)
+
+Nevada
+
+    Vegas Golden Knights (Western Pacific)
+
+New Jersey
+
+    New Jersey Devils (Eastern Metropolitan)
+
+New York
+
+    Buffalo Sabres (Eastern Atlantic)
+    New York Islanders (Eastern Metropolitan)
+    New York Rangers (Eastern Metropolitan)
+
+North Carolina
+
+    Carolina Hurricanes (Eastern Matropolitan)
+
+Ohio
+
+    Columbus Blue Jackets (Eastern Metropolitan)
+
+Ontario, Canada
+
+    Ottawa Senators (Eastern Atlantic)
+    Toronto Maple Leafs (Eastern Atlantic)
+
+Pennsylvania
+
+    Philadelphia Flyers (Eastern Metropolitan)
+    Pittsburgh Penguins (Eastern Metropolitan)
+
+Quebec
+
+    Montreal Canadiens (Eastern Atlantic)
+
+Tennessee
+
+    Nashville Predators (Western Central)
+
+Texas
+
+    Dallas Stars (Western Central)
+
+Washington D.C.
+
+    Washington Capitals (Eastern Metropolitan)
+
+
