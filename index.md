@@ -50,7 +50,7 @@ Together with [Tec^Edge](http://wbi-icc.com/centers-services/tecedge-icc),
 we're having an informal weekly lunchtime meeting
 for folks learning Python.  No program, just come to share questions with each 
 other, show off what you've been working on, and discuss.  We'll meet most 
-Fridays at noon at the [Wright Brothers Institute]().  Check 
+Fridays at noon at the [Wright Brothers Institute](https://www.wbi-innovates.com/).  Check 
 [meetup](https://www.meetup.com/Dayton-Microcomputer-Association-Meetup)
 to make sure we're meeting on a particular Friday.
 
@@ -58,6 +58,15 @@ Many people can't make that time, so join our
 [mailing list](http://lists.dma1.org/listinfo.cgi/dynamic-lang-sig-dma1.org) 
 to discuss possible times for an alternative session.
 
+### PyFri goes virtual for COVID-19 season
+
+PyFri is is moving to videochat format from mid-March 2020 to (?).
+
+Jump on 
+https://hangouts.google.com/call/WxxapCAIQb7SUm9njgjYAEEEat noon on Friday (this Friday and following Fridays), chat about interesting Python problems or solutions, share your screen if you wish.  
+
+Calendar link:
+https://calendar.google.com/event?action=TEMPLATE&tmeid=NDZzamEwb2lhZzRkYjk0Zml2dDM4cjdwb2kgY2F0aGVyaW5lLmRldmxpbkBt&tmsrc=catherine.devlin%40gmail.com
 
 ## Mailing list
 
