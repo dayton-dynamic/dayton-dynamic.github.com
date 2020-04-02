@@ -62,8 +62,8 @@ to discuss possible times for an alternative session.
 
 PyFri is is moving to videochat format from mid-March 2020 to (?).
 
-Jump on 
-https://hangouts.google.com/call/WxxapCAIQb7SUm9njgjYAEEEat noon on Friday (this Friday and following Fridays), chat about interesting Python problems or solutions, share your screen if you wish.  
+Jump on https://udayton.zoom.us/j/798060256?pwd=TlowWVhYeEpHUFNneTN5YUFSV3k4dz09
+ noon on Friday (this Friday and following Fridays), chat about interesting Python problems or solutions, share your screen if you wish.  
 
 Calendar link:
 https://calendar.google.com/event?action=TEMPLATE&tmeid=NDZzamEwb2lhZzRkYjk0Zml2dDM4cjdwb2kgY2F0aGVyaW5lLmRldmxpbkBt&tmsrc=catherine.devlin%40gmail.com
