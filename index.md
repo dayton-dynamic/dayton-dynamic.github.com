@@ -67,6 +67,10 @@ Jump on https://udayton.zoom.us/j/798060256 at noon on Friday (this Friday and f
 Calendar link:
 https://calendar.google.com/event?action=TEMPLATE&tmeid=NDZzamEwb2lhZzRkYjk0Zml2dDM4cjdwb2kgY2F0aGVyaW5lLmRldmxpbkBt&tmsrc=catherine.devlin%40gmail.com
 
+### PyFri notebooks 
+
+Some Jupyter notebooks from our Friday sessions are posted at https://github.com/dayton-dynamic/pyfri
+
 ## Mailing list
 
 We have a [mailing list](http://lists.dma1.org/listinfo.cgi/dynamic-lang-sig-dma1.org) that we use for occasional discussion, but usually just monthly meeting reminders. It's extremely low traffic and definitely the best way to know what is going on with the group.
