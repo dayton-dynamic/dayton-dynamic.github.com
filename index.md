@@ -62,14 +62,15 @@ to discuss possible times for an alternative session.
 
 PyFri is is moving to videochat format from mid-March 2020 to (?).
 
-Jump on https://udayton.zoom.us/j/798060256 at noon on Friday (this Friday and following Fridays), chat about interesting Python problems or solutions, share your screen if you wish.  
+Jump on [https://udayton.zoom.us/j/798060256](https://udayton.zoom.us/j/798060256)
+ at noon on Friday (this Friday and following Fridays), chat about interesting Python problems or solutions, share your screen if you wish.  
 
 Calendar link:
 https://calendar.google.com/event?action=TEMPLATE&tmeid=NDZzamEwb2lhZzRkYjk0Zml2dDM4cjdwb2kgY2F0aGVyaW5lLmRldmxpbkBt&tmsrc=catherine.devlin%40gmail.com
 
 ### PyFri notebooks 
 
-Some Jupyter notebooks from our Friday sessions are posted at https://github.com/dayton-dynamic/pyfri
+Some Jupyter notebooks from our Friday sessions are posted at [https://github.com/dayton-dynamic/pyfri](https://github.com/dayton-dynamic/pyfri)
 
 ## Mailing list
 
