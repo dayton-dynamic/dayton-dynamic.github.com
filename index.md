@@ -62,8 +62,11 @@ to discuss possible times for an alternative session.
 
 PyFri is is moving to videochat format from mid-March 2020 to (?).
 
-Jump on [https://udayton.zoom.us/j/798060256](https://udayton.zoom.us/j/798060256)
- at noon on Friday (this Friday and following Fridays), chat about interesting Python problems or solutions, share your screen if you wish.  
+We are moving from our old home on Zoom to Discord!  
+
+[Join our Discord channel](https://discord.gg/9SgTh3T)
+
+at noon on Fridays, click the General voice channel to join us.  You may need to install the Discord desktop app rather than just relying on the web interface.
 
 Calendar link:
 https://calendar.google.com/event?action=TEMPLATE&tmeid=NDZzamEwb2lhZzRkYjk0Zml2dDM4cjdwb2kgY2F0aGVyaW5lLmRldmxpbkBt&tmsrc=catherine.devlin%40gmail.com
