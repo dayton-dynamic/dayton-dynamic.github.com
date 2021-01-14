@@ -1,0 +1,213 @@
+body {
+    background-color: #99ccff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div.move-left {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+div.move-right {
+    display: inline-block;
+    width: 50%;
+    float: right;
+}
+div.move-left:after, div.move-right:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 300%;
+    font-family: 'Londrina Solid', cursive;
+}
+.supertitle {
+    font-size: 70%;
+}
+h2 {
+    display: block;
+    margin: 0px 10px;
+    padding: none;
+    text-align: left;
+    font-size: 200%;
+    color: yellow;
+}
+.presented {
+    margin-bottom: 0px;
+    text-align: center;
+}
+table#gameboard, table.thumbnail{
+    border-collapse: collapse;
+}
+table#gameboard {
+    /*
+    float: right;
+    */
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 0px 0px 16px 16px #ffffff;
+}
+table.thumbnail {
+    box-shadow: 0px 0px 4px 4px #ffffff;
+    margin: 10px;
+}
+table#gameboard tr, table.thumbnail tr {
+    border: solid 1px;
+    border-color: #555555;
+}
+table#gameboard tr {
+    height: 20px;
+}
+table.thumbnail tr {
+    height: 4px;
+}
+table#gameboard td, table.thumbnail td {
+    padding: 0px;
+    background-color: black;
+    color: black;
+    font-size: 0px;
+    border: solid 1px;
+    border-color: #555555;
+}
+table#gameboard td {
+    width: 20px;
+}
+table.thumbnail td {
+    width: 3px;
+}
+table#gameboard td.alive, table.thumbnail td.alive {
+    background-color: yellow;
+    color: yellow;
+}
+div.button-panel {
+    display: block;
+    background-color: #003399;
+    margin: 10px;
+    padding: 10px;
+    border: solid black 2px;
+    border-radius: 7px;
+}
+div.button-panel:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+div.button-panel p {
+    margin: 5px 10px;
+    color: yellow;
+}
+div.button-set {
+    float: left;
+}
+div.button-set:after {
+    content: "";
+    clear: both;
+}
+div.startPatternThumb {
+    float: left;
+    height: 100%
+}
+div.startPatternThumb:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+button {
+    height: 2.5ex;
+    width: 5em;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    border-radius: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin: 10px;
+    float: left;
+    display: 10px;
+}
+button#rules, button#download {
+    width: auto;
+    height: auto;
+    padding: 3px 6px;
+    font-size: 20px;
+}
+button:enabled:hover {
+    background-color: yellow;
+}
+button:disabled {
+    border-color: #cccccc;
+    color: #cccccc;
+}
+button:disabled:hover {
+    background-color: white;
+}
+#page-mask {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+div.modal {
+    width: 70%;
+    height: auto;
+    left:10%;
+    margin-top: 30px;
+    padding: 20px 40px;
+    background-color: #99ccff;
+    border: 2px solid #cccccc;
+    border-radius: 7px;
+    position: fixed;
+    z-index: 1000005;
+    box-shadow: 20px 20px 40px 1px black;
+    display: none;
+}
+div.modal h2 {
+    color:#003399;
+    margin: 10px 10px;
+}
+div.modal p {
+    margin: 5px 10px;
+}
+form {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+input {
+    margin-top: 20px;
+    border: solid 1px;
+    border-color: black ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+input:hover{
+    box-shadow:inset 0px 0px 2px 2px #666666;
+}
+input:focus{
+    box-shadow:inset 0px 0px 0px 3px black;
+}
+fieldset {
+    margin-top: 20px;
+    border: solid 1px;
+    border-color: black;
+}
+
+/* Adjustments for phone screens */
+@media only screen and (max-width: 1000px) {
+    div.move-left {
+        width: 100%;
+        float: none;
+    }
+    div.move-right {
+        width: 100%;
+        float: none;
+    }
+  }

@@ -1,0 +1,127 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Conway's Game of Life / Dayton Dynamic Languages</title>
+    <meta name="description" content="Conway's Game of Life">
+    <meta name="author" content="Dayton Dynamic Languages user group">
+
+    <link rel="stylesheet" type="text/css" href="main.css" media = screen>
+
+    <!-- script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script -->
+    <script src="pattern.js"></script>
+    <!-- script src="controls.js"></script -->
+    <script src="setup.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" rel="stylesheet"> 
+
+</head>
+
+<body>
+
+    <div class="move-left">
+        <p class="presented"><a href="http://d8ndl.org/" target="_blank">Dayton Dynamic Languages User Group</a> presents</p>
+        <h1><span class="supertitle">John Conway's</span><br />Game of Life</h1>
+    </div>
+
+    <div class="move-right">
+        <table id="gameboard"></table>
+    </div>
+
+    <div class="move-left">
+        <div class="button-panel">
+            <h2>Play the Game!</h2>
+            <p>Click on the gameboard to create a pattern, then click Start.</p>
+            <button type="button" id="start">Start</button>
+            <button type="button" id="stop" disabled>Stop</button>
+            <button type="button" id="step">Step</button>
+        </div>
+        <div class="button-panel">
+            <h2>Starting Pattern</h2>
+            <div class="startPatternThumb">
+                <table id="startPattern" class="thumbnail"></table>
+            </div>
+                <div class="button-set">
+                <button type="button" id="reset" disabled>Reset</button>
+                <button type="button" id="clear" disabled>Clear</button>
+            </div>
+            <div class="button-set">
+                <button type="button" id="save" disabled>Save</button>
+                <button type="button" id="load">Load</button>
+            </div>
+        </div>
+        <div class="button-panel">
+                <button type="button" id="rules">Read the Rules</button>
+                <a href="https://github.com/dayton-dynamic/techfest-game-of-life-frontend"
+                target="_blank"><button type="button" id="download">Download the Code</button></a>
+        </div>
+    </div>
+    <div id="page-mask"></div>
+    <div id="save-dialog" class="modal">
+        <h1>Save a Pattern</h1>
+        <form id="save-form">
+            <label for="pattern-name">Name for this pattern:</label>
+            <input name="pattern-name" id="pattern-name" type="text"><br>
+            <label for="author">Author first name:</label>
+            <input name="athor" id="author" type="text"><br>
+            <fieldset form="save-form"><legend>Save to where?</legend>
+                <input type="radio" id="local" name="destination" value="local" checked>
+                <label for="local">Local (on your computer or phone)</label><br>
+                <input type="radio" id="shared" name="destination" value="shared">
+                <label for="shared">Online Library (shared with other users)</label><br>
+            </fieldset>
+            <button id="save-submit" type="button">Save</button>
+            <button id="save-cancel" type="button">Cancel</button>
+            <p id="save-message" class="error"></p>
+        </form>
+    </div>
+    <div id="load-dialog" class="modal">
+        <h1>Load a Pattern</h1>
+        <form id="load-form">
+            <fieldset form="load-form"><legend>Load from where?</legend>
+                <input type="radio" id="local" name="source" value="local" checked>
+                <label for="local">Local (on your computer or phone)</label><br>
+                <input type="radio" id="shared" name="source" value="shared">
+                <label for="shared">Online Library (shared with other users)</label><br>
+            </fieldset>
+            <button id="load-submit" type="button">Load</button>
+            <button id="load-cancel" type="button">Cancel</button>
+        </form>
+    </div>
+    <div id="rules-dialog" class="modal">
+        <h1>Rules for the Game of Life</h1>
+        <p>The Game of Life is not your typical computer game. It is a cellular
+            automaton, and was invented by Cambridge mathematician John
+            Conway.</p>
+        <p>This game became widely known when it was mentioned in an article
+            published by Scientific American in 1970. It consists of a
+            collection of cells which, based on a few mathematical rules, can
+            live, die or multiply. Depending on the initial conditions, the
+            cells form various patterns throughout the course of the game.</p>
+        <h2>For a space that is populated:</h2>
+        <ul>
+            <li>
+                <p>Each cell with one or no neighbors dies, as if by solitude.</p>
+            </li>
+            <li>
+                <p>Each cell with four or more neighbors dies, as if by overpopulation.</p>
+            </li>
+            <li>
+                <p>Each cell with two or three neighbors survives.</p>
+            </li>
+        </ul>
+        <h2>For a space that is unpopulated (empty):</h2>
+        <ul>
+            <li>
+                <p>Each cell with three or more neighbors becomes populated.</p>
+            </li>
+        </ul>
+        <button id="rules-close" type="button">Close</button>
+    </div>
+
+</body>
+
+</html>
