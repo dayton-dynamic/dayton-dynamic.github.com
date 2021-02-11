@@ -4,20 +4,20 @@ class Pattern {
         let result = new Pattern();
         result.width = 25;
         result.height = 25;
-        result.author = "Dayton Dynamic Languages";
-        result.name = "Default start pattern";
+        result.author = "";
+        result.name = "";
         let boolRows = [];
         for (let i = 0; i < result.height; i++) { boolRows.push(0); };
         result.boolRows = [...boolRows];
         return result;
     }
 
-    static load(patternNumm) {
-        if (!patternNumm) {
-            return Pattern.defaultPattern();
-        }
-        return Pattern.defaultPattern();  // replace me
-    }
+    // static load(patternNumm) {
+    //     if (!patternNumm) {
+    //         return Pattern.defaultPattern();
+    //     }
+    //     return Pattern.defaultPattern();
+    // }
 
     static random() {
         return defaultPattern();  //replace me
@@ -26,11 +26,20 @@ class Pattern {
     get rows() {
         // translates the boolRows into 011001 string representation
 
-        let result = []
+        let result = [];
         for (const boolRow of this.boolRows) {
             result.push(boolRow.toString(2).padStart(this.width, '0'))
         }
         return result
+    }
+
+    isEmpty() {
+
+        let total = 0;
+        for (const boolRow of this.boolRows) {
+            total += boolRow;
+        }
+        return (total == 0);
     }
 
     countNeighbors(rowNum, colNum) {
@@ -120,7 +129,7 @@ class Pattern {
 
     apply(tbl) {
         let row_num = 0;
-        for (const row of this.rows) {  // try leaving off this bracket!
+        for (const row of this.rows) {
             for (let char_num = 0; char_num < row.length; char_num++) {
                 let cell = tbl.rows[row_num].cells[char_num]
                 cell.alive = Number(row[char_num]);
@@ -166,6 +175,7 @@ class Pattern {
 
     get payload() {
         return {
+            "name": this.name,
             "author": this.author,
             "pattern": this.boolRows,
             "width": this.width
@@ -173,20 +183,20 @@ class Pattern {
     }
 }
 
-function save() {
-    if (!startPattern) {
-        startPattern = Pattern.from_table(document.getElementById("gameboard"));
-    }
-    startPattern.author = prompt("Your name?")
-    console.log(startPattern.payload);
-    let url = "http://45.79.202.219:3000/pattern"
+// function save() {
+//     if (!startPattern) {
+//         startPattern = Pattern.from_table(document.getElementById("gameboard"));
+//     }
+//     startPattern.author = prompt("Your name?")
+//     console.log(startPattern.payload);
+//     let url = "http://45.79.202.219:3000/pattern"
 
-    const options = {
-        method: 'POST',
-        body: JSON.stringify(startPattern.payload),
-        headers: { "Content-type": "application/json; charset=UTF-8" }
-    }
+//     const options = {
+//         method: 'POST',
+//         body: JSON.stringify(startPattern.payload),
+//         headers: { "Content-type": "application/json; charset=UTF-8" }
+//     }
 
-    fetch(url, options).then(res => console.log(res));
-}
+//     fetch(url, options).then(res => console.log(res));
+// }
 

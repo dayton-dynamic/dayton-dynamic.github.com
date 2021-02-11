@@ -4,16 +4,12 @@
 
 <head>
     <meta charset="utf-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86">
     <title>Conway's Game of Life / Dayton Dynamic Languages</title>
     <meta name="description" content="Conway's Game of Life">
     <meta name="author" content="Dayton Dynamic Languages user group">
-
-    <link rel="stylesheet" type="text/css" href="main.css" media = screen>
-
-    <!-- script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script -->
+    <link rel="stylesheet" type="text/css" href="main.css" media="screen">
     <script src="pattern.js"></script>
-    <!-- script src="controls.js"></script -->
     <script src="setup.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" rel="stylesheet"> 
@@ -64,28 +60,28 @@
         <h1>Save a Pattern</h1>
         <form id="save-form">
             <label for="pattern-name">Name for this pattern:</label>
-            <input name="pattern-name" id="pattern-name" type="text"><br>
+            <input name="pattern-name" id="pattern-name" type="text" size="12" maxlength="15"><br>
             <label for="author">Author first name:</label>
-            <input name="athor" id="author" type="text"><br>
+            <input name="athor" id="author" type="text" size="12" maxlength="15"><br>
             <fieldset form="save-form"><legend>Save to where?</legend>
-                <input type="radio" id="local" name="destination" value="local" checked>
-                <label for="local">Local (on your computer or phone)</label><br>
-                <input type="radio" id="shared" name="destination" value="shared">
-                <label for="shared">Online Library (shared with other users)</label><br>
+                <input type="radio" id="local-save" name="destination" value="local" checked>
+                <label for="local-save">Local (on your computer or phone)</label><br>
+                <input type="radio" id="shared-save" name="destination" value="shared">
+                <label for="shared-save">Online Library (shared with other users)</label><br>
             </fieldset>
+            <p id="save-message" class="error"></p>
             <button id="save-submit" type="button">Save</button>
             <button id="save-cancel" type="button">Cancel</button>
-            <p id="save-message" class="error"></p>
         </form>
     </div>
     <div id="load-dialog" class="modal">
         <h1>Load a Pattern</h1>
         <form id="load-form">
             <fieldset form="load-form"><legend>Load from where?</legend>
-                <input type="radio" id="local" name="source" value="local" checked>
-                <label for="local">Local (on your computer or phone)</label><br>
-                <input type="radio" id="shared" name="source" value="shared">
-                <label for="shared">Online Library (shared with other users)</label><br>
+                <input type="radio" id="local-load" name="source" value="local" checked>
+                <label for="local-load">Local (on your computer or phone)</label><br>
+                <input type="radio" id="shared-load" name="source" value="shared">
+                <label for="shared-load">Online Library (shared with other users)</label><br>
             </fieldset>
             <button id="load-submit" type="button">Load</button>
             <button id="load-cancel" type="button">Cancel</button>
@@ -116,7 +112,7 @@
         <h2>For a space that is unpopulated (empty):</h2>
         <ul>
             <li>
-                <p>Each cell with three or more neighbors becomes populated.</p>
+                <p>Each cell with exactly three neighbors becomes populated.</p>
             </li>
         </ul>
         <button id="rules-close" type="button">Close</button>
