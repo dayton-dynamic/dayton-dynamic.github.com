@@ -37,6 +37,9 @@ h2 {
     padding: none;
     text-align: left;
     font-size: 200%;
+    color: #003399;
+}
+.button-panel h2 {
     color: yellow;
 }
 .presented {

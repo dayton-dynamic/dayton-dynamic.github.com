@@ -52,7 +52,7 @@ function loadPattern(patt, startPatt, patternNum, source) {
                 }
                 else {
                     throw new Error(
-                        'Unexpected response status ${response.status} or content type'
+                        `Unexpected response status ${response.status} or content type`
                     );
                 }
             })
@@ -119,7 +119,7 @@ function savePattern(pattern, destination) {
             .then(response => {
                  if (!response.ok) {
                     throw new Error(
-                        'Unexpected response status ${response.status}'
+                        `Unexpected response status ${response.status}`
                     );
                  }
             })
