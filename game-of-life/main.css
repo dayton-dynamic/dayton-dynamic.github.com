@@ -255,7 +255,7 @@ fieldset {
     div.modal {
         position: fixed;
         overflow: auto;
-        margin: 20px 20px auto 20px;
+        margin: 20px;
         top: 0;
         right: 0;
         bottom: 0;
