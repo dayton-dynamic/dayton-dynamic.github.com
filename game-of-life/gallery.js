@@ -1,3 +1,4 @@
+// Get source from URL query string
 function getSource() {
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
@@ -5,10 +6,12 @@ function getSource() {
     return source;
 }
 
+// Populate the HTML list of stored patterns (displayed as tiles in the Gallery)
 function fillUl(gameList) {
 
+    // Add a single item to the list
     function addLi(row) {
-        if (!row.hasOwnProperty('id')) return; //FIXME: Remove after old test data is purged
+        // Create list item
         var li = document.createElement('li');
         gameList.append(li);
         let html = `<a id=id${row['id']} href="index.html?pattern=${row['id']}&source=${getSource()}">`;
@@ -18,6 +21,7 @@ function fillUl(gameList) {
         html = html + `</div>`;
         html = html + `</a>`;
         li.innerHTML = html;
+        // Add thumbnail
         let startPattern = Pattern.defaultPattern();
         startPattern.width = row['width'];
         startPattern.height = row['pattern'].length;
@@ -28,6 +32,7 @@ function fillUl(gameList) {
     }
 
     if (getSource() == "local") {
+        // Get list of stored patterns from the browser's local storage
         let storedPatterns = [];
         if (localStorage.patterns) {
             storedPatterns = JSON.parse(localStorage.patterns);
@@ -41,7 +46,9 @@ function fillUl(gameList) {
 
     }
     else {
+        // Get list of stored patterns from the remote database server
         fetch(url)
+            // When the response is returned...
             .then(response => {
                 if (response.ok &&
                     response.headers.get("Content-Type") === "application/json; charset=utf-8") {
@@ -53,6 +60,7 @@ function fillUl(gameList) {
                     );
                 }
             })
+            // If the response is valid...
             .then(data => {
                 if (data.length > 0) {
                     data.forEach(addLi);
@@ -61,6 +69,7 @@ function fillUl(gameList) {
                     document.querySelector('#empty').style.display = "block";
                 }
             })
+            // If an error was encountered...
             .catch(error => {
                 console.log("Error while fetching list of patterns:", error);
                 alert("Error while getting patterns!");
@@ -69,9 +78,10 @@ function fillUl(gameList) {
 
 }
 
-let url = "http://45.79.202.219:3000/pattern";
-let icons = { 1: "•", 0: "◦" };  // thank you Stephen Hinton!
+let url = "http://45.79.202.219:3000/pattern"; // URL for the remote database server
+let icons = { 1: "•", 0: "◦" };  // Define display characters for non-styles cells
 
+// Once the page is comletely loaded, find the unordered list and populate it
 window.addEventListener("load", function() {
     let gameList = document.getElementById("game-list");
     fillUl(gameList);

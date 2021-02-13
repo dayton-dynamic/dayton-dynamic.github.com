@@ -1,5 +1,8 @@
+// Define the Pattern class which holds a gameplay pattern along
+// with associated information and behavior
 class Pattern {
 
+    // Create a default pattern
     static defaultPattern() {
         let result = new Pattern();
         result.width = 25;
@@ -12,20 +15,8 @@ class Pattern {
         return result;
     }
 
-    // static load(patternNumm) {
-    //     if (!patternNumm) {
-    //         return Pattern.defaultPattern();
-    //     }
-    //     return Pattern.defaultPattern();
-    // }
-
-    static random() {
-        return defaultPattern();  //replace me
-    }
-
+    // Translates the boolRows into 011001 string representation
     get rows() {
-        // translates the boolRows into 011001 string representation
-
         let result = [];
         for (const boolRow of this.boolRows) {
             result.push(boolRow.toString(2).padStart(this.width, '0'))
@@ -33,8 +24,8 @@ class Pattern {
         return result
     }
 
+    // Checks to see if the pattern is empty
     isEmpty() {
-
         let total = 0;
         for (const boolRow of this.boolRows) {
             total += boolRow;
@@ -42,6 +33,7 @@ class Pattern {
         return (total == 0);
     }
 
+    // Counts the number of living neighbors for the specified cell
     countNeighbors(rowNum, colNum) {
 
         // Get cells in an aray of arrays
@@ -66,6 +58,7 @@ class Pattern {
         return neighbors;
     }
 
+    // Creates the HTML for the gameboard table
     new_table(tbl) {
         tbl.pattern = this;
         tbl.innerHTML = "";
@@ -82,6 +75,7 @@ class Pattern {
         }
     }
 
+    // Creates the HTML for a thumbnail table
     new_thumb(tbl) {
         tbl.pattern = this;
         tbl.innerHTML = "";
@@ -93,6 +87,7 @@ class Pattern {
         }
     }
 
+    // Updated the pattern from the HTML table
     updateFromTable(tbl) {
         let boolRows = [];
         for (const row of tbl.rows) {
@@ -105,28 +100,14 @@ class Pattern {
         this.boolRows = boolRows;
     }
 
+    // Clears the pattern
     clear() {
         let boolRows = [];
         for (let i = 0; i < this.height; i++) { boolRows.push(0); };
         this.boolRows = [...boolRows];
     }
 
-    static from_table(tbl) {
-        let result = new Pattern();
-        let boolRows = [];
-        for (const row of tbl.rows) {
-            result.width = row.length;
-            let characters = "0b";
-            for (const cell of row.cells) {
-                characters += String(cell.alive);
-            }
-            boolRows.push(Number(characters))
-        }
-        result.boolRows = boolRows;
-        return result
-    }
-
-
+    // Applies the pattern to the specified HTML table
     apply(tbl) {
         let row_num = 0;
         for (const row of this.rows) {
@@ -144,6 +125,7 @@ class Pattern {
         }
     }
 
+    // Advances the gameplay one step
     advance(tbl) {
         // Get cells in an aray of arrays
         let cells = [];
@@ -172,7 +154,7 @@ class Pattern {
         }
     }
 
-
+    // Gets attributes of the pattern so that they can be saved with it
     get payload() {
         return {
             "name": this.name,
@@ -182,21 +164,3 @@ class Pattern {
         }
     }
 }
-
-// function save() {
-//     if (!startPattern) {
-//         startPattern = Pattern.from_table(document.getElementById("gameboard"));
-//     }
-//     startPattern.author = prompt("Your name?")
-//     console.log(startPattern.payload);
-//     let url = "http://45.79.202.219:3000/pattern"
-
-//     const options = {
-//         method: 'POST',
-//         body: JSON.stringify(startPattern.payload),
-//         headers: { "Content-type": "application/json; charset=UTF-8" }
-//     }
-
-//     fetch(url, options).then(res => console.log(res));
-// }
-
