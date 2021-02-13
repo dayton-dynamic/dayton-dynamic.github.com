@@ -6,19 +6,16 @@ layout: default
 
 ## About Us
 
-The Dayton Dynamic Language User Group is primarily focused on, as
-you can tell by the name, dynamic languages. If you're interested
-in Ruby (including Rails), Python (including Django), PHP, Perl,
-Javascript, Scheme, Lisp, Smalltalk, etc, this is probably the place
-for you. We try not to talk specifically about things like C
-and Java, but there are no hard and fast rules (especially if
-you're comparing them to a dynamic language).
+We're a group of Dayton-area programmers who help each other learn how to 
+write in dynamic languages.  We're casual, inquisitive, 
+beginner-friendly, and include both professionals and amateurs.  
+If you're interested in Ruby (including Rails), Python (including Django), 
+PHP, Perl, Javascript, Scheme, Lisp, Smalltalk, etc, this is the place
+for you.  Now and then we poke into other languages, too, particularly 
+if they seem interesting and exciting. 
 
-The meetings are very informal. We usually don't have any
-formal presentations, but people frequently show code that they're
-working on. The flow of the meeting tends to meander, so if you're
-interested in something specific, you should speak up!
-).
+We're responsive and informal; if there's a topic you'd like to present 
+on or just like to see, we'll probably be interested in it too!
 
 We are a Special Interest Group (SIG) of the [Dayton Microcomputer 
 Association](http://dma1.org/).  See other DMA SIG meetings
@@ -26,6 +23,11 @@ at [Meetup](http://www.meetup.com/Dayton-Microcomputer-Association-Meetup/
 <a name="#next-meeting-topic"></a>
 
 ## Upcoming Meetings
+
+During the pandemic, we're meeting online in the "General" voice channel 
+of the [PyFri Discord](https://discord.gg/9SgTh3T).  You may need to 
+install the Discord desktop app; the Discord webpage itself doesn't 
+work well on some systems.
 
 {% assign curDate = site.time | date: '%s' %}
 {% assign meetings = site.categories.meeting | sort: "date" | reversed %}
@@ -49,24 +51,15 @@ at [Meetup](http://www.meetup.com/Dayton-Microcomputer-Association-Meetup/
 Together with [Tec^Edge](http://wbi-icc.com/centers-services/tecedge-icc), 
 we're having an informal weekly lunchtime meeting
 for folks learning Python.  No program, just come to share questions with each 
-other, show off what you've been working on, and discuss.  We'll meet most 
-Fridays at noon at the [Wright Brothers Institute](https://www.wbi-innovates.com/).  Check 
+other, show off what you've been working on, and discuss.  We meet most 
+Fridays at noon, barring holidays.
+
+During the pandemic, PyFri meets online in the "General" voice channel 
+of the [PyFri Discord](https://discord.gg/9SgTh3T).  Once things are 
+back to normal, we'll return to meeting at the 
+[Wright Brothers Institute](https://www.wbi-innovates.com/).  Check 
 [meetup](https://www.meetup.com/Dayton-Microcomputer-Association-Meetup)
 to make sure we're meeting on a particular Friday.
-
-Many people can't make that time, so join our 
-[mailing list](http://lists.dma1.org/listinfo.cgi/dynamic-lang-sig-dma1.org) 
-to discuss possible times for an alternative session.
-
-### PyFri goes virtual for COVID-19 season
-
-PyFri is is moving to videochat format from mid-March 2020 to (?).
-
-We are moving from our old home on Zoom to Discord!  
-
-[Join our Discord channel](https://discord.gg/9SgTh3T)
-
-at noon on Fridays, click the General voice channel to join us.  You may need to install the Discord desktop app rather than just relying on the web interface.
 
 Calendar link:
 https://calendar.google.com/event?action=TEMPLATE&tmeid=NDZzamEwb2lhZzRkYjk0Zml2dDM4cjdwb2kgY2F0aGVyaW5lLmRldmxpbkBt&tmsrc=catherine.devlin%40gmail.com
