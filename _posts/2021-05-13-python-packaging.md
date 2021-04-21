@@ -12,7 +12,7 @@ General voice chat link.  You may need to install the Discord desktop app rather
 the web interface.
 
 
-## Topic: Concurrency in Python 
+## Topic: Proper Python Packaging 
 
 There is absolutely no shame in slapping together a one-file script and running it with 
 `python myscript.py`.  Often that's exactly the right thing to do.
