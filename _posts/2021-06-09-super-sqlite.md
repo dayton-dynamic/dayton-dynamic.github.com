@@ -26,7 +26,7 @@ the web interface.
 
 # Topic: Super SQLite 
 
-*SQLite?  More like SQLMight!  Amirite?"
+*"SQLite?  More like SQLMight!  Amirite?"*
 
 SQLite is a database technology usable from virtually every programming 
 language.  It runs without a server process; a SQLite database is simply 

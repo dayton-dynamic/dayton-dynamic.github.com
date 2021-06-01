@@ -24,10 +24,11 @@ at [Meetup](http://www.meetup.com/Dayton-Microcomputer-Association-Meetup/
 
 ## Upcoming Meetings
 
-During the pandemic, we're meeting online in the "General" voice channel 
-of the [PyFri Discord](https://discord.gg/9SgTh3T).  You may need to 
-install the Discord desktop app; the Discord webpage itself doesn't 
-work well on some systems.
+Our monthly meetings take place at [Brixx](https://www.brixxicecompany.com/),
+but we also use the "General" voice channel 
+of the [PyFri Discord](https://discord.gg/9SgTh3T), so if you aren't 
+fully vaccinated or can't make it downtown for any other reason, feel 
+free to join us online.
 
 {% assign curDate = site.time | date: '%s' %}
 {% assign meetings = site.categories.meeting | sort: "date" | reversed %}
@@ -54,7 +55,7 @@ for folks learning Python.  No program, just come to share questions with each
 other, show off what you've been working on, and discuss.  We meet most 
 Fridays at noon, barring holidays.
 
-During the pandemic, PyFri meets online in the "General" voice channel 
+For now, PyFri meets online in the "General" voice channel 
 of the [PyFri Discord](https://discord.gg/9SgTh3T).  Once things are 
 back to normal, we'll return to meeting at the 
 [Wright Brothers Institute](https://www.wbi-innovates.com/).  Check 
