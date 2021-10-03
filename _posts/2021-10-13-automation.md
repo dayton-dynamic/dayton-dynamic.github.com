@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "October 2021: Personal Automation" 
-date:   2021-09-10 19:00:00 -0400
+date:   2021-10-13 19:00:00 -0400
 categories: meeting
 ---
 
