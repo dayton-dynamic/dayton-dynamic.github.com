@@ -33,7 +33,6 @@ free to join us online.
 {% assign curDate = site.time | date: '%s' %}
 {% assign meetings = site.categories.meeting | sort: "date" | reversed %}
 {% for meeting in meetings %}
-<div class="meeting-announcement">
     {% assign meetingDate = meeting.date | date: '%s' %}
     {% if meetingDate >= curDate %}
 
@@ -44,7 +43,6 @@ free to join us online.
 {{ meeting.content }}
 
     {% endif %}
-</div>
 {% endfor %}
 
 <a name="ml"></a>
