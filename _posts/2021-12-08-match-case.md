@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "December 2021: There's more to match-case
+title:  "December 2021: There's more to match-case"
 date:   2021-12-08 19:00:00 -0400
 categories: meeting
 ---
