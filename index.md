@@ -49,11 +49,13 @@ free to join us online.
 
 ## PyFri@WBI: Python self-study meetups
 
+*time change to 2 PM*
+
 Together with [Tec^Edge](http://wbi-icc.com/centers-services/tecedge-icc), 
 we're having an informal weekly lunchtime meeting
 for folks learning Python.  No program, just come to share questions with each 
 other, show off what you've been working on, and discuss.  We meet most 
-Fridays at noon, barring holidays.
+Fridays at *2 PM* (changed from noon!), barring holidays.
 
 For now, PyFri meets online in the "General" voice channel 
 of the [PyFri Discord](https://discord.gg/9SgTh3T).  Once things are 
