@@ -24,7 +24,7 @@ at [Meetup](http://www.meetup.com/Dayton-Microcomputer-Association-Meetup/
 
 ## Upcoming Meetings
 
-Our monthly meetings take place at [Brixx](https://www.brixxicecompany.com/),
+Our monthly meetings take place at Dayton's [Innovation Hub](https://www.thehubdayton.com/),
 but we also use the "General" voice channel 
 of the [PyFri Discord](https://discord.gg/9SgTh3T), so if you aren't 
 fully vaccinated or can't make it downtown for any other reason, feel 
@@ -82,12 +82,7 @@ We have a [mailing list](http://lists.dma1.org/listinfo.cgi/dynamic-lang-sig-dma
 **New home!** 
 
 We meet meet on the !2nd Wednesday of every month from
-!7pm to !9pm upstairs at [Brixx Ice Company](https://www.brixxicecompany.com/).
-
-[Map to Brixx](https://www.google.com/maps/place/Brixx+Ice+Company/@39.7635846,-84.1858403,17z/data=!3m1!4b1!4m5!3m4!1s0x884083fd2dda9455:0x1bad2c04f439a0b6!8m2!3d39.7635846!4d-84.1836462)
-
-This lets us combine our customary after-meeting dinner with the 
-meeting itself.  Yum!
+7 to 9 pm at Dayton's [Innovation Hub](https://www.thehubdayton.com/)
 
 <a name="past-meetings"></a>
 
