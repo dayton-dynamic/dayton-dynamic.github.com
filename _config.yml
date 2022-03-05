@@ -20,6 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
 # Build settings
 markdown: kramdown
 theme: minima
+future: true
 
 # Serving
 baseurl: "" # the subpath of your site, e.g. /blog
