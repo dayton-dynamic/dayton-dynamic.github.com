@@ -1,0 +1,8 @@
+cmd2
+jsonlines
+jupyterlab
+petl
+pip-chill
+pydrive2
+rich
+pillow
