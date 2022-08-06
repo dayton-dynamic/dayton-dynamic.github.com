@@ -19,8 +19,7 @@ on or just like to see, we'll probably be interested in it too!
 
 We are a Special Interest Group (SIG) of the [Dayton Microcomputer 
 Association](http://dma1.org/).  See other DMA SIG meetings
-at [Meetup](http://www.meetup.com/Dayton-Microcomputer-Association-Meetup/
-<a name="#next-meeting-topic"></a>
+at [Meetup](https://www.meetup.com/dayton-microcomputer-association-meetup/events/).
 
 ## Upcoming Meetings
 
