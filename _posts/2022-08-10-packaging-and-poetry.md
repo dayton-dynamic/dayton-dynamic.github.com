@@ -17,6 +17,14 @@ to, and the improvements that
 [pyproject.toml](https://peps.python.org/pep-0621/)-based 
 tools like [Poetry](https://python-poetry.org) bring.
 
+August topic: Packaging and Poetry
+
+Matt Alioto has been diving deep into Poetry, and will lead discussion on how packages define their dependencies, and why we should care.
+
+We’ll put particular focus on packaging in Python - the problems that Python’s older packaging systems have led to, and the improvements that pyproject.toml-based tools like Poetry bring.
+
+This month, we're also going to premier a new meeting feature: the Design Topic of the Month.  Each month, we'll describe a design principle that other programmers have proposed to help guide good program design, and spend a few minutes discussing it.  For August, we'll discuss Chesterton's Fence.
+
 ## Innovation Hub - *not* Brixx!
 
 We've begun to meet in the [Innovation Hub](https://www.thehubdayton.com/), a gorgeous new 
