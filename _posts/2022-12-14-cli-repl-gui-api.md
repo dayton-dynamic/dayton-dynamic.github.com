@@ -14,7 +14,7 @@ a calculation they can make, information they can
 process or look up, etc.  And then they need ways
 for a user to actually invoke that functionality.
 It does no good to develop the best "Hello World" 
-program 
+program ever until users can use it!
 
 Programmers have developed a death-by-acronym set of 
 terms describing various means to get at that 
