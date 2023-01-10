@@ -11,6 +11,8 @@ In the beginning, we interacted with computers through
 the command line.  It was simple, it was straightforward.
 Now and then we spiced it up with a little ASCII art. 
 But, when graphical desktops became common, and then 
+web apps, plaintext was largely relegated to the back 
+burner.
 
 Here's the thing, though.  The simplicity of command-line 
 applications never went away; and now plaintext is enjoying a 
