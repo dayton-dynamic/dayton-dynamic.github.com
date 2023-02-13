@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "ddl-jupyter-tour"
+version = "0.1.0"
+description = "A review of the Jupyter ecosystem, by Dayton Dynamic Languages"
+authors = ["Catherine Devlin <catherine.devlin@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "ddl_jupyter_tour"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyterlab = "^3.6.1"
+quarto = "^0.1.0"
+jupyterlite = "^0.1.0b18"
+voila = "^0.4.0"
+pandas = "^1.5.3"
+matplotlib = "^3.6.3"
+ipywidgets = "^8.0.4"
+papermill = "^2.4.0"
+notedown = "^1.5.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

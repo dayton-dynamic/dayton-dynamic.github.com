@@ -25,6 +25,8 @@ Textual by [Textualize](https://www.textualize.io/) is one
 such package, now booming in the Python world.  We'll dive 
 in and have some fun with it!
 
+[Materials](https://github.com/dayton-dynamic/textual-tutorial)
+
 ## Also featuring 
 
 - Design principle of the month
