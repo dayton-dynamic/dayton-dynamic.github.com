@@ -25,6 +25,8 @@ an example of how to build one in Python, and
 techniques for providing multiple ways to access a 
 single core program. 
 
+[Code repository](https://github.com/catherinedevlin/calculator-interface-demos)
+
 ## Also featuring 
 
 - Design principle of the month
