@@ -1,15 +1,21 @@
 ---
 layout: post
-title:  "September 2023: FastAPI workshop" 
-date:   2023-09-13 19:00:00 -0400
+title:  "October 2023: Horror stories"
+date:   2023-10-11 19:00:00 -0400
 categories: meeting
 ---
 
-@ September: FastAPI workshop 
+# October: Horror Stories 
 
-FastAPI is a popular modern Python framework for both API services and more traditional web applications.  It is, well, fast, using Python's async to process requests in parallel.  It also leverages the powerful type specifications of Pydantic for rapid and elegant development that steers you firmly toward modern best practices.
+Non-programmers sometimes think that code is scary.
 
-For September, Wesley Giles will lead us in a hands-on workshop to build your first FastAPI service.  No script, no plan, no rules, just code and some friends.  Bring a laptop if you have one, or you can pair up with another attendee.
+They don't know the half of it!
+
+There are Things Man was Not Meant to Know, and Code Man was Not
+Meant to Write.  Have you written some of it yourself?  Bring 
+terrifying stories you've experienced or heard ("friend of a friend"
+scary stories are a tradition, after all).  We'll be amused and 
+maybe learn something, too.  
 
 ## Location: Innovation Hub 
 
