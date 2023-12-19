@@ -1,0 +1,5 @@
+loguru 
+jupyterlab
+icecream
+cutelog
+pyqt5
