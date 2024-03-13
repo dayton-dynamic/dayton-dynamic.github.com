@@ -14,6 +14,8 @@ a backend server language.  Ugh, that sounds hard.
 So let's not!  Let's try [Streamlit](https://streamlit.io/) instead.  It's a Python package 
 that makes data web apps addictively easy to build with just a few lines of Python; you can skip practically all the hard work of building web front-ends. 
 
+[Meeting notes](../meeting_notes/streamlit)
+
 ## Location: Innovation Hub 
 
 We meet in the [Innovation Hub](https://www.thehubdayton.com/), 
