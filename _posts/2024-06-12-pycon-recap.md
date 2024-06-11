@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "June 2024: PyCon recap" 
-date:   2024-05-08 19:00:00 -0400
+date:   2024-06-12 19:00:00 -0400
 categories: meeting
 ---
 
