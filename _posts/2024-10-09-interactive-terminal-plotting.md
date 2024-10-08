@@ -9,7 +9,15 @@ categories: meeting
 
 Our special October presenter is Dr. David Woodburn!
 
-He'll present on Interactive Tutorial Plotting.  This library introduces powerful tools for visualizing data directly in the terminal, addressing the frustrations developers, engineers, and scientists face when working in environments like SSH. The interactive plotting function, iplot, eliminates the need to switch contexts or transfer files to another machine just to view data. By enabling quick data inspection and interaction within the terminal, it not only speeds up analysis but also enhances understanding, offering a smooth, efficient workflow. Whether working locally or remotely, this tool saves time and effort, making data visualization less tedious and more dynamic.
+He'll present on 
+[Interactive Tutorial Plotting](https://pypi.org/project/itrm/).  
+This library introduces powerful tools for visualizing data directly in the terminal, addressing the frustrations developers, engineers, and scientists face when working in environments like SSH. The interactive plotting function, iplot, eliminates the need to switch contexts or transfer files to another machine just to view data. By enabling quick data inspection and interaction within the terminal, it not only speeds up analysis but also enhances understanding, offering a smooth, efficient workflow. Whether working locally or remotely, this tool saves time and effort, making data visualization less tedious and more dynamic.
+
+Dr. Woodburn is also the package author, so we can 
+ask him about the experience of creating and maintaining 
+an open-source project.
+
+David Woodburn has been teaching at the ANT Center since 2020. He has a Ph.D. in Electromagnetics from UCF, and he has six years of experience working in controls, modeling and simulation, circuit design, generators, and digital signal processing. He is now director of the Distance Learning Program in Guidance Navigation and Control. His research primarily focuses on inertial navigation.
 
 ## Location: Innovation Hub 
 
