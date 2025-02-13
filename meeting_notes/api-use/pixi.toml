@@ -1,0 +1,16 @@
+[project]
+authors = ["Catherine Devlin <catherine.devlin@gmail.com>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "api-use"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+jupyterlab = ">=4.3.4,<5"
+requests = ">=2.32.3,<3"
+folium = ">=0.19.4,<0.20"
+pandas = ">=2.2.3,<3"
+altair-all = ">=5.5.0,<6"
