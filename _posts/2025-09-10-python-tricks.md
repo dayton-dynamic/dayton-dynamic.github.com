@@ -5,7 +5,7 @@ date:   2025-09-10 19:00:00 -0400
 categories: meeting
 ---
 
-# August 2025: Consuming Reddit, Using py.space 
+# September 2025: Stupid Python Tricks 
 
 Python language design values predictability, regularity, and lack of 
 surprise.
