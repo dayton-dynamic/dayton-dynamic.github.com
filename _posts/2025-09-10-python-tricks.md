@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "September 2025: Stupid Python Tricks" 
-date:   2025-00-10 19:00:00 -0400
+date:   2025-09-10 19:00:00 -0400
 categories: meeting
 ---
 
