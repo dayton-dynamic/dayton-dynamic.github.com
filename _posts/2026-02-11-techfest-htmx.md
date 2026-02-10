@@ -22,7 +22,7 @@ This time we'll go through using them together in an actual
 HTMX is a web technology that makes available an enhanced set of 
 HTML5-like elements - call them "HTML5 plus plus".  You can use 
 them to write webpages with a lot of the slick dynamic content 
-that you would ordinarily  - 
+that you would ordinarily use JavaScript for.
 
 Any language can be used for the server side (backend) of an 
 HTMX webpage.  We'll use FastAPI, one of those *all the cool 
