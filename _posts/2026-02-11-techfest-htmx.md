@@ -31,6 +31,8 @@ leverages async programming and Pydantic schema specifications
 to their maximal extent (although that might not come through 
 in the simple app we set up).
 
+Repository being demonstrated: https://github.com/catherinedevlin/public-connection-mapper 
+
 ## Location: Innovation Hub 
 
 We meet in the [Innovation Hub](https://www.thehubdayton.com/), 
