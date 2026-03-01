@@ -21,7 +21,7 @@ these problems.
 Rodrigo is creator of [mathspp.com](https://mathspp.com/).
 He's an experienced speaker and tutorial instructor, 
 author of several Python books, and producer of daily 
-[Python drops](https://mathspp.com/drops) tips.
+[Python drops](https://mathspp.com/drops) tip newsletter.
 
 ## Location: Innovation Hub 
 
